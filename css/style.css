@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* header */
+
+header .logo {
+    margin-top: 20px;
+    display: flex;
+}
+
+header .logo p {
+    color: #050F81;
+    font-weight: 600;
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+header .logo i {
+    height: 20px;
+    padding: 1px;
+    border-radius: 2px;
+    background-color: #48c5fE;
+    margin-top: 6px;
+    color: #050F81;
+    font-size: 22px;
+}
+
+header .item {
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+}
+
+header .item a {
+    color: #050F81;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 35px;
+}
+
+header .sign {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -23px;
+}
+
+header .sign .in {
+    color: #050F81;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+header .sign .up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 25px;
+    border-radius: 10px;
+    background-color: #050f81;
+    cursor: pointer;
+    margin-top: -20px;
+    width: 170px;
+}
+
+/* ------------------------ */
+
+/* content */
+
+/* .content .descrip {
+    display: flex;
+} */
+
+.content .descrip .title {
+    color: #48c4fe;
+    font-size: 20px;
+}
